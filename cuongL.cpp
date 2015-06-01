@@ -7,6 +7,34 @@
 
 #include "header.h"
 
+/* struct Game {
+        Shape box[10];
+ 	bool menutest;  
+   Game()
+       {  
+	menutest = true;
+        
+
+        box[5].width = 140;
+        box[5].height = 40;
+        box[5].center.x = 400;
+        box[5].center.y = 500;
+        box[5].center.z = 0;
+
+        box[6].width = 140;
+        box[6].height = 40;
+        box[6].center.x = 400;
+        box[6].center.y = 400;
+        box[6].center.z = 0;
+
+        box[7].width = 140;
+        box[7].height = 40;
+        box[7].center.x = 400;
+        box[7].center.y = 300;
+        box[7].center.z = 0;
+	}
+};
+*/
      
 
 int check_keys(XEvent *e, Game *game) 
